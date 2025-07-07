@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    void solve(int col,vector<string>&board,vector<vector<string>>&ans,int n,vector<int>&checkrow,unordered_set<int>&major_diag,unordered_set<int>&minor_diag){
+    void solve(int col,vector<string>&board,vector<vector<string>>&ans,int n,vector<int>&checkrow,     unordered_set<int>&major_diag,unordered_set<int>&minor_diag){
         if(col==n){
             ans.push_back(board);
             return;
