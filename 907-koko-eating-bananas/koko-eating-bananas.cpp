@@ -4,10 +4,9 @@ public:
         int n=piles.size();
         int l=1,r=*max_element(piles.begin(),piles.end());
         auto valid=[&](int mid){
-            vector<int>pile=piles;
             int count=0;
-            for(int i=0;i<pile.size();i++){
-                count+=((pile[i]+mid-1)/mid);
+            for(int i=0;i<piles.size();i++){
+                count+=((piles[i]+mid-1)/mid);
                 if(count>h)return false;
             }
             return true;
