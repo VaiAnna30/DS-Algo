@@ -28,7 +28,6 @@ public:
                 l=mid+1;
             }
         }
-        if(index==-1) return false;
         vector<int>&vec=v[index];
         int ind=lower_bound(vec.begin(),vec.end(),a)-vec.begin();
         if(ind<n&&vec[ind]==a)return true;
