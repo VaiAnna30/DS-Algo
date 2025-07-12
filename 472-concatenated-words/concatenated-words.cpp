@@ -1,9 +1,6 @@
 class Solution {
 public:
-    bool func(unordered_set<string>& s,
-              const string& word,
-              int index,
-              vector<int>& dp) {
+    bool func(unordered_set<string>& s,string& word,int index,vector<int>& dp) {
         int n = word.size();
         if (index == n) 
             return true;
