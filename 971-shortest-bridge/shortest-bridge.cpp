@@ -64,35 +64,5 @@ public:
             }
         }
         return -1;
-
-
-        // for(auto &a:v[0]){
-        //     int i=a.first;
-        //     int j=a.second;
-        //     bool found=false;
-        //     for(auto &a:move){
-        //         int ii=i+a[0];
-        //         int jj=j+a[1];
-        //         if(grid[ii][jj]==0) found=true;
-        //     }
-        //     if(!found)v[0].erase(a);
-        // }
-        // for(auto &a:v[1]){
-        //     int i=a.first;
-        //     int j=a.second;
-        //     bool found=false;
-        //     for(auto &a:move){
-        //         int ii=i+a[0];
-        //         int jj=j+a[1];
-        //         if(valid(ii,jj,n)&&grid[ii][jj]==0) found=true;
-        //     }
-        //     if(!found)v[1].erase(a);
-        // }
-
-        // queue<pair<pair<int,int>,int>>q;
-        // for(auto &a:v[0])q.push({a,0});
-
-
-
     }
 };
